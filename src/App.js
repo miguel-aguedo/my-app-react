@@ -18,14 +18,14 @@ function App() {
         >
           Moodle
         </a>
-        <b
+        <a
           className="App-link"
           href="http://www.dtodo.infinityfreeapp.com/elementor-46/"
           target="_blank"
           rel="noopener noreferrer"
         >
           WordPress
-        </b>
+        </a>
       </header>
     </div>
   );
