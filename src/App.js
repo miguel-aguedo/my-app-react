@@ -1,32 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import C00ComponenteNuevo from './components/C00ComponenteNuevo';
+import Saludo from './components/C01Saludo';
+import Contador from './components/C02Contador';
+import Operador from './components/C03OperadorTercario';
+import Matriz from './components/C04Matriz';
+import MatrizOperaciones from './components/C05MatrizOperaciones';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://dtodo2022.milaulas.com/course/view.php?id=2"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Moodle
-        </a>
-        <a
-          className="App-link"
-          href="http://www.dtodo.infinityfreeapp.com/elementor-46/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          WordPress
-        </a>
-      </header>
+    <div>
+      <h1>Practicas... React</h1>
+      <C00ComponenteNuevo />
+      <hr/>
+      <Saludo variable="Nuevo saludo" />
+      <hr/>
+      <Contador  />
+      <hr/>
+      <Operador/>
+      <hr/>
+      <Matriz />
+      <hr />
+      <MatrizOperaciones />
     </div>
   );
 }
